@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv(
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['51.250.110.130']
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', default='web').split(" ")
 
 
 INSTALLED_APPS = [

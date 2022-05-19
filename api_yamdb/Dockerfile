@@ -1,6 +1,7 @@
 FROM python:3.7-slim
 
+RUN mkdir /app
 WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt
+COPY . /app
+RUN pip install -r /code/requirements.txt
 CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ]

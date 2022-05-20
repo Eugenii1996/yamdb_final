@@ -87,7 +87,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 
 ### Ссылка на развернутый и запущенный проект:
 
-http://localhost/redoc/
+http://51.250.110.130/
 
 ### Как наполнить базу данных:
 

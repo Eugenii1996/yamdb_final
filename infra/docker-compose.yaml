@@ -29,6 +29,8 @@ services:
       - static_value:/var/html/static/
 
       - media_value:/var/html/media/
+
+      - ./static:/var/html/static/
     depends_on:
       - web
 

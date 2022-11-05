@@ -35,7 +35,7 @@ git clone git@github.com:Eugenii1996/yamdb_final.git
 ```
 
 ```bash
-cd api_yamdb
+cd yamdb_final
 ```
 
 ### Cоздать и активировать виртуальное окружение:
